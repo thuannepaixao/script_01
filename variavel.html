@@ -1,0 +1,135 @@
+<script>
+
+  /*
+String
+
+*Cadeia de caracteres
+
+"" // aspas duplas
+'' // aspas simples
+`` // template literals ou template strings, permite multiplas linhas e expressões
+
+console.log('Nita') 
+console.log(`Nita ${1 + 1}`)
+console.log(1 + 1)
+*/
+
+
+/*
+Number
+  *números
+  
+  33 // inteiros
+  12.5 // reais - float
+  NaN // not a number
+  Infinity // infinito
+  
+console.log(12.5 + 12)
+console.log(12.5 / 12)
+*/
+
+/*
+Boolean
+  * somente 2 valores
+  
+    true // verdadeiro
+    false // falso
+    
+    console.log(true)
+    console.log(false)
+*/
+
+/*
+*undefined
+  *indefinido
+  
+*null
+  *nulo
+  *objeto que não possui nada dentro
+  *diferente de indefinido
+*/
+
+/*
+*Object
+  *Objeto
+  *Propriedades / Atributos
+  *Funcionalidades / Métodos
+  
+  { propriedade: "valor" }
+  
+console.log({
+  nome: "Nita",
+  andar: function() {
+    console.log('andar')
+  }
+})
+*/
+
+/*
+* Array (Vetores)
+  *Uma lista
+  *Agrupamento de dado
+  
+  ["Furkan", 36]
+  
+console.log(["Furkan", 
+             36])
+console.log(["Leite", 
+            "Ovos",
+            2,
+            3])
+
+*/            
+
+  // var
+  // var clima = "Quente"
+  // clima = "Frio"
+
+  // let
+  // let clima = "Quente"
+
+  // "const" -- não pode ser alterado
+  // const clima = "Quente" 
+  // clima = "Frio" atributo da variável não pode ser alterado
+
+  // let clima = true
+  // clima = ""
+
+  // O javascript não representa uma linguagem fortemente
+  // tipada
+  // Possui características dinâmicas
+
+  // console.log(typeof clima) 
+
+  // {
+  //   let x = 0
+  //   console.log(x)
+  // }
+
+
+  // *var é global e, também local 
+  
+  // var x = 0
+  // console.log('> existe x antes do bloco?', x)
+  // o valor considera-se indefinido através do hoisting (elevação)
+
+  // {                   // escopo
+  //   var x = 0
+  // }
+
+  // console.log('> existe x depois do bloco?', x)
+
+  // const e let são locais e só funcionam no escopo onde foi criada
+
+  // console.log('> existe y antes do bloco? ', y) 
+  
+  {
+    let y = 0
+    console.log('> existe y ', y)
+  }
+
+  console.log('> existe y depois do bloco? ', y)
+
+
+
+</script>
